@@ -1,0 +1,50 @@
+.app__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.header {
+  background-color: #808080;
+}
+
+.list__container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__name {
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.view {
+  cursor: pointer;
+}
+
+.loading {
+  -webkit-filter: blur(3.5px) !important;
+  -moz-filter: blur(3.5px) !important;
+  -o-filter: blur(3.5px) !important;
+  -ms-filter: blur(3.5px) !important;
+  filter: blur(3.5px) !important;
+  background-color: #ffffff !important;
+  border: 1px solid salmon;
+}
+
+.container {
+  width: 45vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 95vw;
+    transition: ease-in 0.1s;
+  }
+}
